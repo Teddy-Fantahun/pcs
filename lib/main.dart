@@ -226,7 +226,7 @@ class _MyHomePageState extends State<MyHomePage> {
       //////////////////////////////////// Navigate to the Home page ////////////////////////////////////////////
       Navigator.pushAndRemoveUntil(
           this.context,
-          MaterialPageRoute(builder: (_) => MyHomePages(title: 'PCS')),
+          MaterialPageRoute(builder: (_) => MyHomePage(title: 'PCS')),
           (route) => route.isFirst);
     });
 
